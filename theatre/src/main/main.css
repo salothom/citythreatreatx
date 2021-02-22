@@ -1,0 +1,39 @@
+.header{
+    float:center;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+    padding-top: 20px;
+
+    }
+.section{
+        padding: 15px;
+
+    }
+    
+.pagepadding{
+        padding: 30px;
+        padding-top: 80px;
+    }
+table{
+    text-align: center;
+    border-collapse:collapse ;
+}
+
+th {
+    padding:15px;
+    background-color: #282c34;
+    color: white;
+}
+td {
+    padding: 15px;
+}
+
+table td:first-child {
+    background-color: silver;
+    text-align: left;
+}
+table th:first-child {
+    background-color: unset;
+}

@@ -1,0 +1,48 @@
+.desktop-nav{
+    /* top: -8; */
+    background-color: #778fc0;
+    padding: 20px;
+    padding-top: 40px;
+    float: left;
+    width: 100%;
+}
+
+.top-nav{
+    /* float:left; */
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top{
+    margin-top: -18px;
+}
+
+.row{
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo{
+    float: left;
+    width: 15%;
+}
+
+.navbutton {
+    
+    padding: 15px;
+}
+.navbutton:hover{
+    /* background-color: #687da8;
+    border-radius: 25px; */
+    color:#18181b;
+    text-decoration: underline;
+
+}
+@media only screen and (max-width: 600px){
+ .navbutton{
+     display: none;
+ }
+}
+

@@ -1,0 +1,38 @@
+
+
+.footer{
+    background-color: rgb(178, 178, 180);
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+
+.footerleft{
+    background-color: silver;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    float: left;
+    width: 33.3%;
+}
+
+.footerleft a{
+    padding:3px;
+    content: "";
+    display: table;
+    clear: both;
+    padding-left: 30%;
+}
+.footerleft h3{
+    padding:3px;
+    content: "";
+    display: table;
+    clear: both;
+    padding-left: 30%;
+}
+
+.footerleft a:hover{
+    color:#18181b;
+    text-decoration: underline;
+
+}
