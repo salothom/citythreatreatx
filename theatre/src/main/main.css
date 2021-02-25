@@ -16,24 +16,52 @@
         padding: 30px;
         padding-top: 80px;
     }
+.colorbacktwo{
+        background-color: #A44A3F;
+        color: white;
+    
+    }
+
+.from-edge{
+    padding: 15px;
+    background-color: rgb(238, 237, 229);
+
+}
+.center{
+    text-align: center
+}
+
+.buffer-top{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 table{
     text-align: center;
     border-collapse:collapse ;
+    margin: auto;
+
 }
 
 th {
-    padding:15px;
-    background-color: #282c34;
+    padding:10px;
+    background-color: #283618;
     color: white;
 }
 td {
-    padding: 15px;
+    padding: 5px;
 }
 
 table td:first-child {
-    background-color: silver;
+    background-color: #CBDFBD;
     text-align: left;
 }
 table th:first-child {
     background-color: unset;
+}
+
+ul{
+    text-align: left;
 }

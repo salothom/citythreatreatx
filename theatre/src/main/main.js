@@ -15,7 +15,7 @@ const Main = () => {
 
     return (
         <Router>
-        <div>
+        <div class="from-edge">
           <Route path="/" component={Aboutus} />
           <Route path="/about" component={Aboutus} />
           <Route path="/contact" component={Contactus} />

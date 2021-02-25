@@ -12,6 +12,9 @@ import Footer from './footer/footer';
 import Aboutus from './main/aboutus';
 import Contactus from './main/contactus';
 import Tickets from './main/tickets';
+import Classes from './main/classes';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -24,6 +27,8 @@ const routing = (
         <Route path="/about" component={Aboutus} />
         <Route path="/contact" component={Contactus} />
         <Route path="/tickets" component={Tickets} />
+        <Route path="/classes" component={Classes} />
+
       </div>
     </Router>
     <Footer />

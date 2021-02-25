@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './header.css'
+import { Grid, Row, Col } from "react-bootstrap";
 
 const Header = () => {
 
@@ -11,17 +12,17 @@ const Header = () => {
 
     return (
         <div class="desktop-nav">
-            <div class="top-nav">
-                <div class="logo">City Theatre Austin</div>
-                <div class="navitems">
+            <Row>
+                <Col s={12} md={3} class="">City Theatre Austin</Col>
+                <Col s={12} md={9}  class="navitems">
                     <a class="navbutton">About Us</a>
                     <a class="navbutton">Upcoming Shows</a>
                     <a class="navbutton">Classes</a>
                     <a class="navbutton">Auditions</a>
                     <a class="navbutton">Support Us</a>
 
-                </div>
-            </div>
+                </Col>
+            </Row>
         </div>
 
     )

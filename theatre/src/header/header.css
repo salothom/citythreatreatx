@@ -1,11 +1,12 @@
 .desktop-nav{
     /* top: -8; */
-    background-color: #778fc0;
+    background-color: #CBDFBD;
     padding: 20px;
     padding-top: 40px;
     float: left;
     width: 100%;
 }
+
 
 .top-nav{
     /* float:left; */
@@ -30,13 +31,14 @@
 }
 
 .navbutton {
-    
+    color:#000000;
+
     padding: 15px;
 }
 .navbutton:hover{
     /* background-color: #687da8;
     border-radius: 25px; */
-    color:#18181b;
+    color:#283618;
     text-decoration: underline;
 
 }
